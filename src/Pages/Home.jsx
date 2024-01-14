@@ -313,9 +313,9 @@ const Home = () => {
         </ul>
       </div>
       <div className="flex-1 flex flex-col bg-white items-center justify-center">
-        {rests.length}
+        {/* {rests.length} */}
         <br />
-        {filRes.length}
+        {/* {filRes.length} */}
         {isLoaded ? (
           <GoogleMap
             mapContainerStyle={containerStyle}
