@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import im from "../assets/img-login.jpg";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 import { useAuth } from "../Store/useAuth";
 
@@ -34,7 +34,9 @@ const Login = () => {
   return (
     <div className="flex flex-1 min-h-screen items-center justify-center m-5">
       <div className="flex rounded-xl h-[90vh] flex-1 items-center justify-center">
-        <img src={im} />
+        <Link to="/">
+          <img src={im} />
+        </Link>
       </div>
       <div className="flex flex-col flex-1 items-center justify-center h-96 bg-blue-500">
         <h2 className="font-semibold text-5xl text-white">Dish Discover</h2>
