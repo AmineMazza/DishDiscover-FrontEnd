@@ -10,7 +10,7 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/your-project.git
+git clone https://github.com/AmineMazza/DishDiscover-FrontEnd.git
 
 # Change into the project directory
 cd your-project
