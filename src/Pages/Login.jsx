@@ -38,7 +38,7 @@ const Login = () => {
           <img src={im} />
         </Link>
       </div>
-      <div className="flex flex-col flex-1 items-center justify-center h-80 bg-blue-500">
+      <div className="max-w-md mx-auto mt-8 px-4 flex flex-col flex-1 items-center justify-center h-72 bg-blue-500 border rounded-lg">
         <h2 className="font-semibold text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-white">
           Dish Discover
         </h2>
