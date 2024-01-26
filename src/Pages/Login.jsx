@@ -38,8 +38,10 @@ const Login = () => {
           <img src={im} />
         </Link>
       </div>
-      <div className="flex flex-col flex-1 items-center justify-center h-96 bg-blue-500">
-        <h2 className="font-semibold text-5xl text-white">Dish Discover</h2>
+      <div className="flex flex-col flex-1 items-center justify-center h-80 bg-blue-500">
+        <h2 className="font-semibold text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-white">
+          Dish Discover
+        </h2>
 
         <input
           placeholder="example@email.com"

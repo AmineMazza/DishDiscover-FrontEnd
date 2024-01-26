@@ -192,7 +192,7 @@ const Landing = () => {
                     />
                   </svg>
                   <span className="text-base font-medium leading-tight text-gray-900 dark:text-white">
-                    Continuous integration and deployment
+                    Analyse de la Demande et du Marché
                   </span>
                 </li>
                 <li className="flex space-x-3">
@@ -210,7 +210,7 @@ const Landing = () => {
                     />
                   </svg>
                   <span className="text-base font-medium leading-tight text-gray-900 dark:text-white">
-                    Development workflow
+                    Évaluation de l'Accessibilité et de la Visibilité
                   </span>
                 </li>
                 <li className="flex space-x-3">
@@ -228,7 +228,7 @@ const Landing = () => {
                     />
                   </svg>
                   <span className="text-base font-medium leading-tight text-gray-900 dark:text-white">
-                    Knowledge management
+                    l'accessibilité et la conformité
                   </span>
                 </li>
               </ul>
@@ -280,7 +280,7 @@ const Landing = () => {
                     />
                   </svg>
                   <span className="text-base font-medium leading-tight text-gray-900 dark:text-white">
-                    Dynamic reports and dashboards
+                    Extraction des données
                   </span>
                 </li>
                 <li className="flex space-x-3">
@@ -298,7 +298,7 @@ const Landing = () => {
                     />
                   </svg>
                   <span className="text-base font-medium leading-tight text-gray-900 dark:text-white">
-                    Templates for everyone
+                    Automatisation des Décisions
                   </span>
                 </li>
                 <li className="flex space-x-3">
@@ -316,7 +316,7 @@ const Landing = () => {
                     />
                   </svg>
                   <span className="text-base font-medium leading-tight text-gray-900 dark:text-white">
-                    Development workflow
+                    Modélisation Prédictive
                   </span>
                 </li>
               </ul>
@@ -357,7 +357,7 @@ const Landing = () => {
                     />
                   </svg>
                   <span className="text-base font-medium leading-tight text-gray-900 dark:text-white">
-                    Continuous integration and deployment
+                    Interface Conviviale
                   </span>
                 </li>
                 <li className="flex space-x-3">
@@ -375,7 +375,7 @@ const Landing = () => {
                     />
                   </svg>
                   <span className="text-base font-medium leading-tight text-gray-900 dark:text-white">
-                    Development workflow
+                    Graphiques Dynamiques et Interactifs
                   </span>
                 </li>
                 <li className="flex space-x-3">
@@ -393,7 +393,7 @@ const Landing = () => {
                     />
                   </svg>
                   <span className="text-base font-medium leading-tight text-gray-900 dark:text-white">
-                    Knowledge management
+                    Compatibilité Multi-Source
                   </span>
                 </li>
               </ul>
@@ -1067,19 +1067,19 @@ const Landing = () => {
               Essayez DishDiscover Platform pendant 30 jours. Pas de carte de
               crédit nécessaire.{" "}
             </p>
-            <a
-              href=""
-              className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+            <Link
+              to={"/submit"}
+              className="text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:ring-blue-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-blue-900"
             >
               Essai gratuit pendant 30 jours
-            </a>
+            </Link>
           </div>
         </div>
       </section>
       {/* End block */}
-      <footer className="bg-white dark:bg-gray-800">
+      <footer className="bg-white dark:bg-gray-800 ">
         <div className="max-w-screen-xl p-4 py-6 mx-auto lg:py-16 md:p-8 lg:p-10">
-          <div className="grid grid-cols-2 gap-8 md:grid-cols-3 lg:grid-cols-5">
+          <div className=" grid-cols-2 gap-20 md:grid-cols-3 lg:grid-cols-5  py-4 flex justify-center items-center">
             <div>
               <h3 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
                 Company
@@ -1097,11 +1097,6 @@ const Landing = () => {
                 </li>
                 <li className="mb-4">
                   <a href="" className="hover:underline">
-                    Brand Center
-                  </a>
-                </li>
-                <li className="mb-4">
-                  <a href="" className="hover:underline">
                     Blog
                   </a>
                 </li>
@@ -1114,7 +1109,7 @@ const Landing = () => {
               <ul className="text-gray-500 dark:text-gray-400">
                 <li className="mb-4">
                   <a href="" className="hover:underline">
-                    Discord Server
+                    Contact Us
                   </a>
                 </li>
                 <li className="mb-4">
@@ -1125,11 +1120,6 @@ const Landing = () => {
                 <li className="mb-4">
                   <a href="" className="hover:underline">
                     Facebook
-                  </a>
-                </li>
-                <li className="mb-4">
-                  <a href="" className="hover:underline">
-                    Contact Us
                   </a>
                 </li>
               </ul>
@@ -1156,61 +1146,8 @@ const Landing = () => {
                 </li>
               </ul>
             </div>
-            <div>
-              <h3 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
-                Company
-              </h3>
-              <ul className="text-gray-500 dark:text-gray-400">
-                <li className="mb-4">
-                  <a href="" className=" hover:underline">
-                    About
-                  </a>
-                </li>
-                <li className="mb-4">
-                  <a href="" className="hover:underline">
-                    Careers
-                  </a>
-                </li>
-                <li className="mb-4">
-                  <a href="" className="hover:underline">
-                    Brand Center
-                  </a>
-                </li>
-                <li className="mb-4">
-                  <a href="" className="hover:underline">
-                    Blog
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
-                Download
-              </h3>
-              <ul className="text-gray-500 dark:text-gray-400">
-                <li className="mb-4">
-                  <a href="" className="hover:underline">
-                    iOS
-                  </a>
-                </li>
-                <li className="mb-4">
-                  <a href="" className="hover:underline">
-                    Android
-                  </a>
-                </li>
-                <li className="mb-4">
-                  <a href="" className="hover:underline">
-                    Windows
-                  </a>
-                </li>
-                <li className="mb-4">
-                  <a href="" className="hover:underline">
-                    MacOS
-                  </a>
-                </li>
-              </ul>
-            </div>
           </div>
+
           <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
           <div className="text-center">
             <span className="block text-sm text-center text-gray-500 dark:text-gray-400">
