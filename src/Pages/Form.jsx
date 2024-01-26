@@ -124,7 +124,7 @@ const Form = () => {
           </div>
         </nav>
       </header>
-      <form className="max-w-md mx-auto pt-36" onSubmit={handleForm}>
+      <form className="max-w-md mx-auto pt-36 px-4" onSubmit={handleForm}>
         <div className="relative z-0 w-full mb-5 group">
           <input
             type="email"
